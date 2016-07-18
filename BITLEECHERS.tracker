@@ -39,7 +39,7 @@
 			network="BITLEECHERS"
 			serverNames="irc.bitleechers.net"
 			channelNames="#announce"
-			announcerNames="BL"
+			announcerNames="BITLEECHERS"
 			/>
 	</servers>
 
@@ -47,7 +47,7 @@
 		<linepatterns>
 			<extract>
 				<!--New Torrent: [Minority.Report.S01E10.480p.x264-mSD] [Uploaded By: Anonymous] [Category: TV/X264] [Size: 236.57 MB] [URL: https://bitleechers.net/details.php?id=1321]-->
-				<regex value="New Torrent: \[(.*)\] \[Uploaded By: (.*)\] \[Category: (.*)\] \[Size: (.*)\] \[URL: (https?://.*/).*id=(\d+)\]"/>
+				<regex value="^ Torrent Uploaded -> Name: (.)  Size:  (.) Category: (.*) URL: https?\\:\\\\([^\\/]+\\).*[&amp;\\?]id=(\\d+).*\"/>
 				<vars>
 					<var name="torrentName"/>
 					<var name="uploader"/>
