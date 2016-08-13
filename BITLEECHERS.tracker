@@ -39,7 +39,7 @@
 			network="BITLEECHERS"
 			serverNames="irc.bitleechers.net"
 			channelNames="#announce"
-			announcerNames="BL"
+			announcerNames="BITLEECHERS"
 			/>
 	</servers>
 
